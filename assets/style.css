@@ -61,7 +61,7 @@ h1 {
 
 /* Main content */
 main {
-    background-color: rgb(150, 161, 154);
+    background-color: #ffffff;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     font-family: 'Raleway', sans-serif;
