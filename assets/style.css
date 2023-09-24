@@ -22,33 +22,38 @@ body {
 
 /* Header */
 header {
-    background-color: #256937; 
-    padding: 0rem;
+    background-color: rgb(10, 80, 22); 
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: bottom;
+    box-shadow: 0 2px 2px #256937;
 }
 
 header a {
     text-decoration: none;
     color: #ffffff;
-    font-family: 'Mooli', sans-serif;
 }
-
 
 h1 {
     font-family: 'Mooli', sans-serif;
+    letter-spacing: 2px;
     color: #ffffff;
-    text-align: center;
 }
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 
