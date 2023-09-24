@@ -22,15 +22,35 @@ body {
 
 /* Header */
 header {
-    background-color: rgb(30, 66, 36);
-    color: #ffffff; 
+    background-color: #256937; 
+    padding: 0rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
 }
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Mooli', sans-serif;
+}
+
 
 h1 {
     font-family: 'Mooli', sans-serif;
     color: #ffffff;
     text-align: center;
 }
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
 
 /* Main content */
 main {
