@@ -1,3 +1,8 @@
+/*Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Raleway:wght@100&display=swap');
+
+
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -17,7 +22,14 @@ body {
 
 /* Header */
 header {
-    background-color: rgb(10, 80, 22);
+    background-color: rgb(30, 66, 36);
+    color: #ffffff; 
+}
+
+h1 {
+    font-family: 'Mooli', sans-serif;
+    color: #ffffff;
+    text-align: center;
 }
 
 /* Main content */
@@ -25,9 +37,13 @@ main {
     background-color: rgb(150, 161, 154);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
 }
 
 /* Footer */
 footer {
     background-color: rgb(10, 80, 22);
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
 }
