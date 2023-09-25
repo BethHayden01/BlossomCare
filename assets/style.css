@@ -114,6 +114,22 @@ main {
     position: relative;
 }
 
+/*Customer messages*/
+.testimonials {
+    display:flex;
+    background: var(--clr-primary-100);
+}
+
+.testimonials .testimonial-title {
+    font-family: var(--ff-accent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+
 #about-us {
     background-color: rgb(255,255,255, .7);
     font-size: 120%;
