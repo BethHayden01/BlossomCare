@@ -28,6 +28,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #256937;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -59,7 +62,7 @@ h1 {
 }
 
 /*Nav Bar drop down menu*/
-Nav{
+nav{
     position: absolute;
     background-color: rgb(10, 80, 22);
     width: 100%;
@@ -67,8 +70,25 @@ Nav{
     padding: 0rem;
     box-shadow: 0 2px 2px #256937;
     display: none;
+    top: 100%;
 }
 
+/*Drop down menu styles*/
+#drop-down-menu:checked~nav{
+    display: block;
+}
+
+#drop-down-menu{
+    display: none;
+}
+
+.drop-down-menu-label{
+    font-size: 2rem;
+}
+
+.drop-down-menu-label i {
+    color: #ffffff;
+}
 
 /* Main content */
 main {
