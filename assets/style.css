@@ -46,7 +46,7 @@ h1 {
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 2px;
     list-style-type: none;
     font-family: 'Raleway Dots', sans-serif;
@@ -96,7 +96,8 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     font-family: 'Raleway', sans-serif;
-    color: #ffffff;
+    margin-top: 85px;
+
 }
 
 /* Footer */
