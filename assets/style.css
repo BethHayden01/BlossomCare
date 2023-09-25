@@ -124,52 +124,60 @@ main {
 }
 
 /*Customer messages*/
-.customer {
+#customer {
     display: flex;
 }
 
-.customer-title {
+#customer-title {
     font-family: 'Raleway Dots', sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top center;
     margin-top: 40px;
     margin-bottom: 2rem;
     color: #256937;
 }
 
-.title-message {
+#title-message {
     font-family: 'Raleway Dots', sans-serif;
-        display: grid;
+        display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: top center;
         margin-top: 10px;
         margin-bottom: 2rem;
         color: #256937;
 }
-.customer-content div {
+#customer-content div {
     border: 10px solid #256937;
     margin: 1rem;
     padding: 1 1 0 1;
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 80%;
     align-items: center;
     justify-content: center;
     font-family: 'Raleway Dots', sans-serif;
+    font-style: italic;
 }
 
-.plant-image {
-    width: 50%;
+#customer-name {
+    color: #256937;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#plant-image {
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.plant-image img {
-    width: 30%;
-    height: 30%;
+#plant-image img {
+    width: 80%;
+    height: 80%;
 }
 
 
@@ -221,6 +229,25 @@ main {
     main {
         margin-top:47px;
     }
+
+    /*Hero*/
+    #about-us {
+        width: 40%;
+        left: 20px;
+    }
+
+    /*Messages Element*/
+    #customer1, #customer2, #customer3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+        #customer1 > div,
+        #customer2 > div,
+        #customer3 >div {
+            width: 100%;
+        }
 
     /*Larger devices*/
     @media screen and (min-width: 922px) {
