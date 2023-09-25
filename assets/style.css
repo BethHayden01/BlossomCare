@@ -101,9 +101,7 @@ nav{
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 85px;
-
+    margin-top: 47px;
 }
 
 /*Hero image*/
@@ -113,22 +111,6 @@ main {
     background: url("../assets/images/heroimagebc.jpg") no-repeat center center/cover;
     position: relative;
 }
-
-/*Customer messages*/
-.testimonials {
-    display:flex;
-    background: var(--clr-primary-100);
-}
-
-.testimonials .testimonial-title {
-    font-family: var(--ff-accent);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
-
 
 #about-us {
     background-color: rgb(255,255,255, .7);
@@ -140,6 +122,44 @@ main {
     padding-top: 25px;
     padding-left: 10px;
 }
+
+/*Customer messages*/
+.testimonials {
+    display: flex;
+}
+
+.testimonials .testimonial-title {
+    font-family: 'Raleway Dots', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.customer-content div {
+    border: 10px solid #256937;
+    margin: 1rem;
+    padding: 1 1 0 1;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.plant-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plant-image img {
+    width: 30%;
+    height: 30%;
+}
+
+
 /* Footer */
 
 #social-media-pages {
