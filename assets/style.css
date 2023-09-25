@@ -101,12 +101,12 @@ nav{
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 2px;
+    margin-top: 47px;
 }
 
 /*Hero image*/
 #hero {
-    height: 800px;
+    height: 600px;
     width: 100%;
     background: url("../assets/images/heroimagebc.jpg") no-repeat center center/cover;
     position: relative;
@@ -124,18 +124,29 @@ main {
 }
 
 /*Customer messages*/
-.testimonials {
+.customer {
     display: flex;
 }
 
-.testimonials .testimonial-title {
+.customer-title {
     font-family: 'Raleway Dots', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
     margin-bottom: 2rem;
+    color: #256937;
 }
 
+.title-message {
+    font-family: 'Raleway Dots', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 2rem;
+        color: #256937;
+}
 .customer-content div {
     border: 10px solid #256937;
     margin: 1rem;
@@ -206,7 +217,7 @@ main {
 
     /*Main element*/
     main {
-        margin-top:2px;
+        margin-top:47px;
     }
 
     /*Larger devices*/
