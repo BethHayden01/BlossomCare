@@ -124,8 +124,8 @@ main {
     padding-left: 10px;
 }
 
-/*Customer messages*/
-#customer {
+/*Customer messages element styles*/
+.customer {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -133,17 +133,17 @@ main {
     justify-content: center;
 }
 
-#customer-title {
+.customer-title {
     font-family: 'Raleway Dots', sans-serif;
     display: flex;
     justify-content: center;
     align-items: top center;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 2rem;
     color: #256937;
 }
 
-#title-message {
+.title-message {
     font-family: 'Raleway Dots', sans-serif;
     display: flex;
     justify-content: center;
@@ -161,27 +161,30 @@ main {
     flex-wrap: wrap;
 }
 
-#customer-content div {
-    border: 10px solid #256937;
-    margin: 1rem;
+.customer-content div {
+    margin: 2rem;
     padding: 1 1 0 1;
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 500px;
+    height: 500px;
     align-items: center;
-    justify-content: center;
-    font-family: 'Raleway Dots', sans-serif;
     font-style: italic;
 }
 
-#customer-name {
+.customer-message {
+    justify-content: left;
+    padding: 1em;  
+}
+
+.customer-name {
     color: #256937;
     font-weight: 600;
     font-style: italic;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
-#plant-image {
+.plant-image {
     width: 80%;
     display: flex;
     justify-content: center;
@@ -189,9 +192,12 @@ main {
     flex-direction: column;
 }
 
-#plant-image img {
-    width: 80%;
-    height: 80%;
+.plant-image img {
+    width: 100%;
+    height: 100%;
+    display:block;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 
@@ -253,17 +259,16 @@ main {
     }
 
     /*Messages Element*/
-    #customer1,
-    #customer2,
-    #customer3 {
+    .customer1,
+    .customer2,
+    .customer3 {
         display: flex;
         flex-direction: column;
-        width: 100%;
     }
 
-    #customer1>div,
-    #customer2>div,
-    #customer3>div {
+    .customer1>div,
+    .customer2>div,
+    .customer3>div {
         width: 100%;
     }
 
