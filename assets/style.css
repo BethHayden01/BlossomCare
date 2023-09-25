@@ -19,6 +19,19 @@ body {
     color: #494343;
 }
 
+h1 {
+    font-family: 'Mooli', sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2,h3 {
+    font-family: 'Raleway Dots', sans-serif;
+    letter: spacing 2px;
+    color: #ffffff;
+    text-align: center;
+}
 
 /* Header */
 header {
@@ -38,12 +51,6 @@ header a {
     color: #ffffff;
 }
 
-h1 {
-    font-family: 'Mooli', sans-serif;
-    letter-spacing: 2px;
-    color: #ffffff;
-    text-align: center;
-}
 
 #menu {
     font-size: 100%;
@@ -101,11 +108,22 @@ main {
 
 /*Hero image*/
 #hero {
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url("../assets/images/heroimagebc.jpg") no-repeat center center/cover;
+    position: relative;
 }
 
+#about-us {
+    background-color: rgb(255,255,255, .7);
+    font-size: 120%;
+    width: 42%;
+    position: absolute;
+    bottom: 30px;
+    min-height: 200px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
 /* Footer */
 
 #social-media-pages {
@@ -122,6 +140,7 @@ main {
     color: #256937;
 }
 
+/*Mobile devices*/
 @media screen and (min-width:768px) {
     /*Header element*/
     nav {
@@ -153,4 +172,12 @@ main {
     main {
         margin-top:85px;
     }
+
+    /*Larger devices*/
+    @media screen and (min-width: 922px) {
+        #menu a:hover{
+            border-bottom:1px solid #ffffff;
+        }
+    }
 }
+
