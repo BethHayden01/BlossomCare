@@ -204,6 +204,28 @@ main {
     border-radius: 50%;
 }
 
+/*Contact Us form styles*/
+.contact-us {
+    height: 600px;
+    width: 100%;
+    background: url("../assets/images/contactbg.jpg") no-repeat center center/cover;
+    position: top;
+}
+
+.contact-us-form {
+    color: #256937;
+    background-color: aqua;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.contact-us-form h2 {
+    color: #256937;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 
 /* Footer */
 
