@@ -38,6 +38,10 @@
         </nav>
     </header>
     <main>
+        <section class="contact-title">
+            <h2 class="contact-heading">Contact Us</h2>
+            <h3 class="contact-message">If you have any houseplant issues, please complete the below form with some details about the issue and we will be in touch within 48hours</h3>
+        </section>
         <section class="contact-us">
             <form class="contact-us-form" method="POST" action="https://formdump.codeinstitute.net">
                 <h2><i class="fa-solid fa-handshake"></i>Let us help!</h2>
@@ -53,22 +57,27 @@
                 <div class="checkbox-buttons">
                     <div>
                         <label for="dying">My Plant is dying</label>
-                        <input type="checkbox" name="plant-issue" class="dying" value="dying" required checked>
+                        <input type="checkbox" name="plant-issue" class="dying" value="dying" required>
                     </div>
                     <div>
                         <label for="repotting">Repotting Advice</label>
-                        <input type="checkbox" name="plant-issue" class="repotting" value="repotting" required checked>
+                        <input type="checkbox" name="plant-issue" class="repotting" value="repotting" required>
                     </div>
                     <div>
                         <label for="product">Plant Care Product Advice</label>
-                        <input type="checkbox" name="plant-issue" class="product" value="product" required checked>
+                        <input type="checkbox" name="plant-issue" class="product" value="product" required>
                     </div>
                     <div>
                         <label for="question">Other Questions</label>
-                        <input type="checkbox" name="plant-issue" class="question" value="question" required checked>
+                        <input type="checkbox" name="plant-issue" class="question" value="question" required>
                     </div>
+                    <div>
+                        <form action="/action_page.php">
+                            <input type="file" id="myFile" name="filename">
+                        </form>
                 </div>
                 <button type="submit" class="submit-issue"> Get Help Now!</button>
+                </form>
             </form>
         </section>
     </main>
