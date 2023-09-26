@@ -204,6 +204,25 @@ main {
     border-radius: 50%;
 }
 
+.products-title, 
+.products-intro {
+    margin-top: 40px;
+    color: #256937;
+    text-align: center;
+}
+
+.products-intro {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.products-hero {
+    height: 600px;
+    width: 100%;
+    background: url("../assets/images/productshero.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
 /*Contact Us form styles*/
 .contact-us {
     background: url("../assets/images/contactbg.jpg") no-repeat center center/cover;
