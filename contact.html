@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Meta tags for search engines-->
     <meta name="description" content="BlossomCare. Plant care tips for unhappy plants." />
     <meta name="keywords"
         content="plant care, unhappy plants, dying plants, repotting, houseplants, plant care products">
@@ -21,7 +22,7 @@
 
 <body>
     <header>
-        <a href="contact.html">
+        <a href="index.html">
             <!--Navbar logo including Favicon-->
             <h1 id="logo">Blossom<i class="fa-brands fa-envira"></i>Care</h1>
         </a>
@@ -29,14 +30,48 @@
         <label for="drop-down-menu" class="drop-down-menu-label"><i class="fa-solid fa-ellipsis-vertical"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="" >Home</a></li>
-                <li><a href="">Plant Types</a></li>
-                <li><a href="">Plant Care Products</a></li>
-                <li><a href=""class="active">Contact Us</a></li>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="plant-types.html">Plant Types</a></li>
+                <li><a href="products.html">Plant Care Products</a></li>
+                <li><a href="contact.html"class="active">Contact Us</a></li>
             </ul>
         </nav>
     </header>
-    <main>Main</main>
+    <main>
+        <section class="contact-us">
+            <form class="contact-us-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-handshake"></i>Let us help!</h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <div class="checkbox-buttons">
+                    <div>
+                        <label for="dying">My Plant is dying</label>
+                        <input type="checkbox" name="plant-issue" class="dying" value="dying" required checked>
+                    </div>
+                    <div>
+                        <label for="repotting">Repotting Advice</label>
+                        <input type="checkbox" name="plant-issue" class="repotting" value="repotting" required checked>
+                    </div>
+                    <div>
+                        <label for="product">Plant Care Product Advice</label>
+                        <input type="checkbox" name="plant-issue" class="product" value="product" required checked>
+                    </div>
+                    <div>
+                        <label for="question">Other Questions</label>
+                        <input type="checkbox" name="plant-issue" class="question" value="question" required checked>
+                    </div>
+                </div>
+                <button type="submit" class="submit-issue"> Get Help Now!</button>
+            </form>
+        </section>
+    </main>
     <footer>
         <ul id="social-media-pages">
             <li>
