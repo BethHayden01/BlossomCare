@@ -33,15 +33,15 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="plant-gallery.html">Plant Gallery</a></li>
                 <li><a href="products.html">Plant Care</a></li>
-                <li><a href="contact.html"class="active">Contact Us</a></li>
+                <li><a href="contact.html"class="active">Get Help</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="contact-us">
-            <form class="contact-us-form" method="POST" action="https://formdump.codeinstitute.net">
+            <form class="contact-us-form" method="GET" action="response.html">
                 <h2><i class="fa-solid fa-sun-plant-wilt"></i></i>Let us help!<i class="fa-solid fa-sun-plant-wilt"></i></h2>
-                <div>
+                <div class="user-details">
                     <label for="first_name">Name</label>
                     <input type="text" name="first_name" id="first_name" class="text-input" required>
                     <br>
@@ -51,32 +51,32 @@
                 </div>
                 <div class="checkbox-buttons">
                     <div>
-                        <input type="checkbox" name="plant-issue" class="dying" value="dying" required>
+                        <input type="checkbox" name="plant-issue" class="dying" value="dying">
                         <label for="dying">My Plant is dying</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="plant-issue" class="repotting" value="repotting" required>
+                        <input type="checkbox" name="plant-issue" class="repotting" value="repotting">
                         <label for="repotting">Repotting Advice</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="plant-issue" class="product" value="product" required>
+                        <input type="checkbox" name="plant-issue" class="product" value="product">
                         <label for="product">Plant Care Product Advice</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="plant-issue" class="question" value="question" required>
+                        <input type="checkbox" name="plant-issue" class="question" value="question">
                         <label for="question">Other Questions</label>
                     </div>
                     <div class="message">
                         <label for="your-message">Your Message</label>
-                        <input type="text" class="text-input1" required>
+                        <textarea type="text" class="text-input1">
                     </div>
-                            <form action="/action_page.php">
-                                <input type="file" class="myfile" name="filename">
-                            </form>
-                        </div>
-                        <button type="submit" class="submit-issue"> Submit</button>
+                    <div>
+                        <form action="/action_page.php">
+                            <input type="file" class="myfile" name="filename">
+                        </form>
+                        <button type="submit" class="submit-issue"> Get Help</button>
+                        </form>
                     </div>
-                </form>
             </form>
         </section>
     </main>
