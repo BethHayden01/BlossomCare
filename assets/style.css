@@ -170,11 +170,9 @@ main {
 
 .customer-content div {
     margin: 2rem;
-    padding: 1 1 0 1;
     display: flex;
     flex-direction: column;
     width: 500px;
-    height: 500px;
     align-items: center;
     font-style: italic;
     font-size: 130%;
@@ -193,11 +191,8 @@ main {
 }
 
 .plant-image {
-    width: 80%;
-    display: flex;
+    height: 500px;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 .plant-image img {
@@ -231,21 +226,31 @@ main {
     font-weight: 200;
 }
 
+.prompt-button {
+    border-radius: 2px;
+    font-size: 100%;
+    padding: 14px 40px;
+    background-color: #256937;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
 .button-prompt {
-    
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /*Gallery Styles 2nd page*/
 
 .gallery {
-    width: 100%;
     display: flex;
 }
 
 .images {
     display: grid;
-    position: relative;
     width: 100%;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
 }
 
 .images img {
@@ -254,28 +259,22 @@ main {
 
 /*Proucts page syling, 3rd page*/
 
-.products-title,
-.products-intro {
-    margin-top: 40px;
-    background-color: rgb(255, 255, 255, .7);
-    width: 42%;
-    color: #ffffff;
-    text-align: center;
-}
-
-.products-intro {
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
 .products-hero {
+    background: url("../assets/images/productshero1.webp") no-repeat center center/cover;
     height: 600px;
     width: 100%;
-    background: url("../assets/images/productshero.jpg") no-repeat center center/cover;
     position: relative;
 }
-
-
+.products-about {
+    background-color: rgb(255, 255, 255, .7);
+    font-size: 100%;
+    width: 42%;
+    position: absolute;
+    bottom: 90px;
+    min-height: 200px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
 
 /*Contact Us form styles*/
 .contact-us {
@@ -422,13 +421,13 @@ fieldset {
     .customer1>div,
     .customer2>div,
     .customer3>div {
-        width: 100%;
-    }
-
-    /*Larger devices*/
-    @media screen and (min-width: 922px) {
-        #menu a:hover {
-            border-bottom: 1px solid #ffffff;
-        }
+        display: flex;
+        flex-direction: column;
     }
 }
+ /*Larger devices*/
+ @media screen and (min-width: 922px) {
+     #menu a:hover {
+         border-bottom: 1px solid #ffffff;
+     }
+ }
