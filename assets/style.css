@@ -223,21 +223,47 @@ main {
     position: relative;
 }
 
-/*Gallery Styles*/
-.images img {
-    line-height: 1rem;
+/*Contact prompt styles*/
+.contact-prompt {
+    background: #ffffff;
+}
+
+.contact-prompt-content {
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 8px;
-    vertical-align: middle;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+    font-family: 'Raleway Dots', sans-serif;
+    font-style: italic;
+}
+
+.contact-prompt-text {
+    padding: 5rem;
+    text-align: center;
+    color: #3a3a3a;
+    font-weight: 200;
+}
+
+.button-prompt {
+    
+}
+
+/*Gallery Styles 2nd page*/
+
+.gallery {
     width: 100%;
+    display: flex;
 }
 
 .images {
-    max-width: 25%;
-    flex: 25%;
-    padding: 0 4px;
-    line-height: 0;
+    display: grid;
+    position: relative;
+    width: 100%;
+}
+
+.images img {
+    display: block;
 }
 
 /*Contact Us form styles*/
