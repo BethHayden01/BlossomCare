@@ -204,24 +204,6 @@ main {
     border-radius: 50%;
 }
 
-.products-title, 
-.products-intro {
-    margin-top: 40px;
-    color: #256937;
-    text-align: center;
-}
-
-.products-intro {
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.products-hero {
-    height: 600px;
-    width: 100%;
-    background: url("../assets/images/productshero.jpg") no-repeat center center/cover;
-    position: relative;
-}
 
 /*Contact prompt styles*/
 .contact-prompt {
@@ -265,6 +247,31 @@ main {
 .images img {
     display: block;
 }
+
+/*Proucts page syling, 3rd page*/
+
+.products-title,
+.products-intro {
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255, .7);
+    width: 42%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.products-intro {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.products-hero {
+    height: 600px;
+    width: 100%;
+    background: url("../assets/images/productshero.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+
 
 /*Contact Us form styles*/
 .contact-us {
