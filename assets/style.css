@@ -223,6 +223,23 @@ main {
     position: relative;
 }
 
+/*Gallery Styles*/
+.images img {
+    line-height: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.images {
+    max-width: 25%;
+    flex: 25%;
+    padding: 0 4px;
+    line-height: 0;
+}
+
 /*Contact Us form styles*/
 .contact-us {
     background: url("../assets/images/contactbg.jpg") no-repeat center center/cover;
