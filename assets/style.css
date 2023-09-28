@@ -289,13 +289,16 @@ main {
     padding-left: 10px;
 }
 
-.products-images {
-    display: flex;
-    width: 100%;
-    align-items: center;
+.product-images {
+    height: 500px;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 8rem;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
 }
 
 /*Contact Us form styles*/
