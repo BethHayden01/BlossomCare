@@ -313,8 +313,8 @@ main {
 }
 
 .contact-us-form {
-    color: #256937;
-    background-color: rgba(184, 182, 182, 0.7)
+    color: #ffffff;
+    background-color: rgba(184, 182, 182, 0.7);
     display: flex;
     align-items: flex-start;
     flex-direction: column;
