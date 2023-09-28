@@ -190,6 +190,8 @@ main {
     margin-top: 20px;
 }
 
+/*customer message image styles*/
+
 .plant-image {
     height: 500px;
     justify-content: center;
@@ -377,7 +379,29 @@ main {
     margin-top: 10px;
 }
 
-/* Footer */
+/*Response page styles*/
+
+.response {
+    background:url("../assets/images/repsonsebg.webp") no-repeat center center/cover;
+    background-size: cover;
+    padding: 10px 10px 0 10%;
+    flex-grow: 1;
+    width:100%;
+}
+
+.response-box {
+    background-color: rgba(46, 44, 44, 0.7);
+    font-family: 'Raleway Dots', sans-serif;
+    font-size: 120%;
+    width: 42%;
+    position: absolute;
+    bottom:90px;
+    min-height: 200px;
+    margin-top: 50em;
+    padding-top: 25px;
+}
+
+/* Footer styles for all pages*/
 
 #social-media-pages {
     text-align: center;
