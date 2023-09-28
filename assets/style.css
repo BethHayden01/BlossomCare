@@ -118,7 +118,7 @@ main {
 }
 
 #about-us {
-    background-color: rgb(255, 255, 255, .7);
+    background-color: rgba(184, 182, 182, 0.7);
     font-size: 120%;
     width: 42%;
     position: absolute;
@@ -281,7 +281,7 @@ main {
     position: relative;
 }
 .products-about {
-    background-color: rgb(255, 255, 255, .7);
+    background-color: rgba(184, 182, 182, 0.7);
     font-size: 100%;
     width: 42%;
     position: absolute;
@@ -314,7 +314,7 @@ main {
 
 .contact-us-form {
     color: #256937;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(184, 182, 182, 0.7)
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -382,7 +382,7 @@ main {
 /*Response page styles*/
 
 .response {
-    background:url("../assets/images/repsonsebg.webp") no-repeat center center/cover;
+    background:url("../assets/images/responsebg.jpg") no-repeat center center/cover;
     background-size: cover;
     padding: 10px 10px 0 10%;
     flex-grow: 1;
