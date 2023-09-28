@@ -257,6 +257,19 @@ main {
     display: block;
 }
 
+.product-image {
+    height: 500px;
+    justify-content: center;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    display:block;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 /*Proucts page syling, 3rd page*/
 
 .products-hero {
@@ -276,12 +289,22 @@ main {
     padding-left: 10px;
 }
 
+.products-images {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+}
+
 /*Contact Us form styles*/
 .contact-us {
     background: url("../assets/images/contactbg.jpg") no-repeat center center/cover;
     background-size: cover;
     padding: 10px 10px 0 10%;
     flex-grow: 1;
+    width: 100%;
 }
 
 .contact-us-form {
@@ -291,50 +314,48 @@ main {
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
-    max-width: 40rem;
-    width: 90%;
+    max-width: 60rem;
     margin-top: 5em;
     margin-left: 2em;
+    font-family: 'Raleway Dots', sans-serif;
 }
 
 .contact-us-form h2 {
     color: #256937;
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .text-input {
     background: transparent;
     color: #256937;
-    width: 30%;
+    width: 70%;
     height: 25px;
-    margin: 5px 0 20px 0;
+    margin: 5px 0 10px 0;
     border: 1px solid #256937;
     padding: 0 5px;
 }
 
-.message {
+.your-message{
     border: #256937;
+    width: 100%;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
-
-fieldset {
-    margin-bottom: 10px;
-}
-
 .text-input1 {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px solid #256937;
     height: 100px;
-    width: 30%;
+    width: 50%;
     background: transparent;
 }
 
 .checkbox-buttons {
     width: 100%;
     margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .myfile{
