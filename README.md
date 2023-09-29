@@ -48,8 +48,11 @@ On tablets:
 
 On mobile devices:
 
--	The navbar is compressed and accessible using a burger on the top right-hand side of the webpage as seen below. Once clicked the burger displays the following dropdown menu.
-(link)
+-	The navbar is compressed and accessible using a horizontal circiles button on the top right-hand side of the webpage as seen below. 
+<img src="assets/assets-readme/navbar-burger.png" alt="dropdown menu button in navbar">
+
+-   Once clicked the following dropdown menu is displayed.
+<img src="assets/assets-readme/navbar-dropdown.png" alt="dropdown menu in navbar">
 
 Homepage (link)
 
