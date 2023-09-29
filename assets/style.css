@@ -330,6 +330,14 @@ main {
     object-fit: cover;
 }
 
+.product_image_container {
+    width: 100%;
+}
+
+.product_image_container img {
+    width: 100%;
+}
+
 /*Contact Us form styles*/
 .contact-us {
     background: url("../assets/images/contactbg.jpg") no-repeat center center/cover;
