@@ -246,6 +246,7 @@ main {
 
 .gallery {
     display: flex;
+    width: 100%;
 }
 
 .grid-container {
@@ -253,6 +254,7 @@ main {
     gap: 1rem;
     background-color: bisque;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    width: 100%;
 }
 
 .image_container {
@@ -288,24 +290,24 @@ main {
 }
 
 .product-images {
-    justify-content: center;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    width: 100%;
+    height: 30em;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     width: 100%;
     background-color: bisque;
 }
 
 .product_main_container {
-    justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     background-color: aqua;
+    padding: 2em;
 }
 
 .product-image img {
