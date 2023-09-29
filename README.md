@@ -1,5 +1,5 @@
 
-<img src="assets/assets-readme/logo.png" alt="Multiple plant fertilizers in a row">
+<img src="assets/assets-readme/logo.png" alt="Organisation logo">
 BlossomCare
 The BlossomCare website is desinged with the aaverage houseplant owner in mind. It's purpose is to assist houseplant owners who are struggling with the health of their plants. The users are able to quickly and efficiently complete a contact form and send a message, with an optional image, about their specific issue to a team of 'plant care experts'. 
 
@@ -31,6 +31,8 @@ Multiple experience user objectives:
 Features:
 
 Navigation bar(link):
+
+<img src="assets/assets-readme/navbar.png" alt="navbar image>
 
 The navigation bar of the webpage will be positioned at the top of each page with the company logo on the left hand side. The navigation elements will be evenly spaced along the right hand side of the nav bar and lead to the below pages:
 
