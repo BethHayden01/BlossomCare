@@ -156,3 +156,5 @@ Mooli was used to create the company logo in the size 400 as the elegance and so
 The main webpage font is Raleway as this is easy to read and for the user to follow along with the text. The font size for each section remained the same at 30 as this provides the user with consistency throughout the webpage.
 
 ## Wireframes
+![Wireframes](documentation/wireframes.pdf)
+The wireframes for my project were generated using Baslsamiq. They all correspond with the webpages I have created, however, the wireframe for the products page is slightly different. This is because once reviewing the layout, I felt page flowed better in a column allowing the user to scroll through products.
