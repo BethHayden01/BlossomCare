@@ -65,14 +65,15 @@ The homepage is comprised of:
 -	Testimonial stories about the company including an image of their healthy plants.
 -	A footer containing links to the form page and social medias for the organisation.
 
-## Hero element(link)
+## Hero element
+![Hero on index.html](documentation/index-hero.png)
 
 The hero element is comprised of a fixed background image with a about us overlay containing:
 -	The organisations name.
 -	Details about the organisation and what they do
 
-## Testimonial element(link)
-
+## Testimonial element
+![Testimonials](documentation/testimonials.png)
 The testimonial element of the homepage contains four individual testimonials from individuals who have been assisted by the company. This gives the user trust in the company and the webpage.
 
 Each individual testimonial contains:
@@ -80,15 +81,18 @@ Each individual testimonial contains:
 -	A quote from the individual who used the company support.
 -	The name of the induvial.
 
-## Support element(link)
+## Support element
+![Support Button](documentation/support-button.png)
 
-This part of the webpage gives the user a button to access the contact us page and a message explaining the purpose of the contact us form.
+This part of the webpage gives the user a button to access the contact us page and a message explaining the purpose of the contact us form. It is consistent throughout each page.
 
-## Footer element (link)
+## Footer element
+![Footer](documentation/footer.png)
 
 The footer element of the webpage is consistent throughout each page and contains links to the company social media pages which open in a new tab.
 
-## Plant Gallery (link)
+## Plant Gallery
+![Gallery](documentation/gallery.png)
 
 This page is accessible using the second link on the nav bar.
 
@@ -97,7 +101,8 @@ The page consists of:
 -	A link to the contact us form containing a short message about the plant not looking as happy as the ones above, we can help, and a button that takes the user to the contact us page.
 -	The footer of the page is identical to that on the home page containing links to the company’s social media sites.
 
-## Best products page (link)
+## Best products page
+![Products](documentation/products.png)
 
 This page is accessible using the third link on the nav bar.
 The page consists of:
@@ -106,7 +111,8 @@ The page consists of:
 -	A link to the contact page if the user has used these products before and they have not worked for them before.
 -	A footer identical to the footer of the home page and plant type page containing links to the company’s social media sites.
 
-## Contact us page (link)
+## Contact us page
+![Contact](documentation/contact.png)
 
 This page is accessible through the fourth link on the nav bar, a button above the footer of the Plant Types page, and a button above the footer of the best product page.
 This form enables the user to select a concern using checkboxes representing the following plant care issues:
@@ -123,6 +129,7 @@ The page has a static background image mirroring the hero image on the home page
 The page will be responsive on all device types to enable complete accessibility for users on laptops, tablets, or mobile devices.
 
 ### Response page
+![Response](documentation/response.png)
 The response page will appear to the user immediately after they have clicked the help me button. This presents the user with a thank you message and a promise to response to their query within 48 hours.
 
 ### Technologies used.
