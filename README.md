@@ -55,7 +55,9 @@ On tablets:
 
 -   Once clicked the following dropdown menu is displayed.
 <img src="assets/assets-readme/navbar-dropdown.png" alt="dropdown menu in navbar">
+
 ![Dropdown menu for responsive navbar](documentation/navbar-dropdown.png)
+
 ## Homepage (link)
 
 The homepage is comprised of:
