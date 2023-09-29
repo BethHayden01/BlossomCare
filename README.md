@@ -30,9 +30,9 @@ Multiple experience user objectives:
 
 Features:
 
-Navigation bar(link):
+Navigation bar:
 
-<img src="assets/assets-readme/navbar.png" alt="navbar image>
+<img src="assets/assets-readme/navbar.png" alt="navbar image">
 
 The navigation bar of the webpage will be positioned at the top of each page with the company logo on the left hand side. The navigation elements will be evenly spaced along the right hand side of the nav bar and lead to the below pages:
 
