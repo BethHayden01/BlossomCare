@@ -267,21 +267,6 @@ main {
     object-position: center;
 }
 
-
-
-.product-image {
-    height: 500px;
-    justify-content: center;
-}
-
-.product-image img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
 /*Proucts page syling, 3rd page*/
 
 .products-hero {
@@ -303,8 +288,24 @@ main {
 }
 
 .product-images {
-    height: 500px;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: bisque;
+}
+
+.product_main_container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: aqua;
 }
 
 .product-image img {
