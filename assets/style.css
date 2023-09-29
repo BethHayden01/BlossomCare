@@ -19,9 +19,13 @@ body {
     color: #494343;
 }
 
+/*Styles for footer elements on all pages*/
+
 .footer {
     margin-top: 0;
 }
+
+/*Styles for h1 and h2 elements on all pages*/
 
 h1 {
     font-family: 'Mooli', sans-serif;
@@ -102,7 +106,7 @@ nav {
     color: #ffffff;
 }
 
-/* Main content */
+/* Main content on index.html*/
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
@@ -246,6 +250,7 @@ main {
 .gallery {
     display: flex;
     width: 100%;
+    padding: 4em 2em;
 }
 
 .grid-container {
@@ -328,7 +333,7 @@ main {
 .contact-us {
     background: url("../assets/images/contactbg.jpg") no-repeat center center/cover;
     background-size: cover;
-    padding: 10px 10px 0 10%;
+    padding: 10px 10px 80px 10%;
     flex-grow: 1;
     width: 100%;
 }
@@ -444,7 +449,7 @@ main {
 /*Mobile devices*/
 @media screen and (min-width:768px) {
 
-    /*Header element*/
+    /*Navbar element*/
     nav {
         display: block;
         position: relative;
@@ -471,18 +476,18 @@ main {
         margin: 0 0.5rem;
     }
 
-    /*Main element*/
+    /*Main element in index.html*/
     main {
         margin-top: 47px;
     }
 
-    /*Hero*/
+    /*Hero in index.html*/
     #about-us {
         width: 40%;
         left: 20px;
     }
 
-    /*Messages Element*/
+    /*Messages Element in index.html*/
     .customer1,
     .customer2,
     .customer3 {
