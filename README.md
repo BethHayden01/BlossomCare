@@ -1,8 +1,11 @@
+
+<img src="assets/assets-readme/logo.png" alt="Multiple plant fertilizers in a row">
 BlossomCare
 The BlossomCare website is desinged with the aaverage houseplant owner in mind. It's purpose is to assist houseplant owners who are struggling with the health of their plants. The users are able to quickly and efficiently complete a contact form and send a message, with an optional image, about their specific issue to a team of 'plant care experts'. 
 
 The webpage can be accessed via this link:
-(link)
+
+https://bethhayden01.github.io/BlossomCare/
 
 
 User stories:
@@ -147,3 +150,6 @@ On mobile device
 -	Plant type
 -	Best products
 -	Contact us page
+
+
+[def]: ssets/assets-readme/logo.pn
