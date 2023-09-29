@@ -295,8 +295,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    width: 100%;
-    background-color: bisque;
 }
 
 .product_main_container {
@@ -305,8 +303,21 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: aqua;
     padding: 2em;
+}
+
+.product_text_header {
+    font-family: 'Raleway Dots', sans-serif;
+    color: #3a3a3a;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.product_text_content p {
+    text-align: center;
+    width: 50%;
+    margin: auto;
 }
 
 .product-image img {
@@ -339,7 +350,7 @@ main {
 }
 
 .contact-us-form h2 {
-    color: #256937;
+    color: #ffffff;
     margin-bottom: 30px;
     width: 100%;
 }
@@ -357,7 +368,8 @@ main {
 .your-message {
     border: #256937;
     width: 100%;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: column;
 }
@@ -369,6 +381,7 @@ main {
     height: 100px;
     width: 50%;
     background: transparent;
+    resize: none;
 }
 
 .checkbox-buttons {
