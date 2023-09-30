@@ -41,10 +41,11 @@ The navigation bar of the webpage will be positioned at the top of each page wit
 -	Best care products – takes you to a page consisting of different plant care products and recommendations/benefits for houseplants.
 -	Contact us – takes the user to a contact form page where the user can define a plant issue and contact the company for help with their individual plant issues. The user can attach an image to the webpage to send to the company.
 
-The navigation links will contain a hover element to allow the user to see a visual representation of the link they are selecting. The navigation bar is also responsive allowing the user to view the webpage clearly on different devices.
+The navigation links will contain a hover element to allow the user to see a visual representation of the link they are selecting. The navigation bar is also responsive, allowing the user to view the webpage clearly on different devices. The purpose of the navigation links is to provide users with a clear pathway to navigate from each page with ease. 
 On tablets:
 
 -	The navbar contain the four links side by side to the right hand side the company logo.
+
 
 ### On mobile devices:
 
@@ -74,7 +75,7 @@ The hero element is comprised of a fixed background image with a about us overla
 
 ## Testimonial element
 ![Testimonials](documentation/testimonials.png)
-The testimonial element of the homepage contains four individual testimonials from individuals who have been assisted by the company. This gives the user trust in the company and the webpage.
+The testimonial element of the homepage contains four individual testimonials from individuals who have been assisted by the company. This gives the user trust in the company and the webpage. The purpose of this element is to enable the user to see that the organisation is trustworthy and therefore be more likely to use the company for support. 
 
 Each individual testimonial contains:
 -	An image of the now healthy plant.
@@ -84,12 +85,12 @@ Each individual testimonial contains:
 ## Support element
 ![Support Button](documentation/support-button.png)
 
-This part of the webpage gives the user a button to access the contact us page and a message explaining the purpose of the contact us form. It is consistent throughout each page.
+This part of the webpage gives the user a button to access the contact us page and a message explaining the purpose of the contact us form. It is consistent throughout each page. The purpose of this element is to encourage and direct the user to the contact form on the 'Get Help' page. 
 
 ## Footer element
 ![Footer](documentation/footer.png)
 
-The footer element of the webpage is consistent throughout each page and contains links to the company social media pages which open in a new tab.
+The footer element of the webpage is consistent throughout each page and contains links to the company social media pages which open in a new tab. The purpose of this element is to provide easy access to the social media sites attributed with the organisation, and encourage the user to visit the sites to learn more. 
 
 ## Plant Gallery
 ![Gallery](documentation/gallery.png)
@@ -101,15 +102,19 @@ The page consists of:
 -	A link to the contact us form containing a short message about the plant not looking as happy as the ones above, we can help, and a button that takes the user to the contact us page.
 -	The footer of the page is identical to that on the home page containing links to the company’s social media sites.
 
+The purpose of this page is to give the user a visual representation of what their healthy plants should look like. This page gives the user a comparison to use against their own houseplants.
+
 ## Best products page
 ![Products](documentation/products.png)
 
 This page is accessible using the third link on the nav bar.
 The page consists of:
 -	4 images of commonly used houseplant care products.
--	A short description under each product of its benefits and a star rating of effectiveness.
+-	A short description under each product of its benefits.
 -	A link to the contact page if the user has used these products before and they have not worked for them before.
 -	A footer identical to the footer of the home page and plant type page containing links to the company’s social media sites.
+
+The purpose of this page is to gives the user a clear idea of the different types of plant care products are avalible on the market to aid their plants health. The descriptions of of each product provide the user with a basic idea as to why each product is essential to a plants survivial. 
 
 ## Contact us page
 ![Contact](documentation/contact.png)
@@ -123,25 +128,30 @@ This form enables the user to select a concern using checkboxes representing the
 The form then has a text area to enter the users’ details including:
 -	Their name
 -	Their email address
+-   Their individual plant concern message
+-   An upload file button to send an image of their plant if they desire.
 Following the users details the form has a large text area to enable them to enter a description of the issue or further information regarding their query for the company.
 At the bottom of the form there is a choose file button to upload a picture of their plant and submit button which leads the user to a response page.
 The page has a static background image mirroring the hero image on the home page.
 The page will be responsive on all device types to enable complete accessibility for users on laptops, tablets, or mobile devices.
 
+The purpose of this page is to enable to user to contact the organisation if the page has not so far helped them with their plant care issue. 
+
 ### Response page
 ![Response](documentation/response.png)
 The response page will appear to the user immediately after they have clicked the help me button. This presents the user with a thank you message and a promise to response to their query within 48 hours.
 
+The purpose of this page is to give the user visual feedback that their form has been successfully recived by the organisation and give them a time scale as to when they are likely to get a response from the team. 
+
 ### Technologies used.
 -	HTML – used as the foundation for the webpage.
 -	CSS – used to style the webpage.
--	CSS Flexbox – used to
+-	CSS Flexbox – used to make the site responsive.
 -	Baslamiq – used to generate a wireframe for the webpage before construction.
 -	CodeAnywhere – was the tool used to generate the webpage and write/edit the code.
 -   VS code - was the tool used to generate the webpage and write/edit the code once CodeAnywhere failed.
 -	Git
 -	GitHub – was used as a host for the code and the webpage itself.
-
 
 ## Design
 
