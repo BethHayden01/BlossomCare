@@ -173,3 +173,10 @@ The main webpage font is Raleway as this is easy to read and for the user to fol
 ## Wireframes
 ![Wireframes](documentation/wireframes.pdf)
 The wireframes for my project were generated using Baslsamiq. They all correspond with the webpages I have created, however, the wireframe for the products page is slightly different. This is because once reviewing the layout, I felt page flowed better in a column allowing the user to scroll through products.
+
+Testing
+
+Please see [TESTING.md](TESTING.md) for all files relating to the testing of the final webpage.
+
+
+
