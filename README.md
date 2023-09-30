@@ -156,13 +156,18 @@ The purpose of this page is to give the user visual feedback that their form has
 ## Design
 
 ### Colour Scheme.
+
+![Colours](documentation/colours.png)
 The colour scheme of the webpage is as listed below. This was chosen as it complements images of plants as well as being appealing to the user’s view.
 The main colour, Dark green, was used as it represents images of plants. Dark greens also contain a soothing psychological effect to the user, so if they access the webpage anxious about the health of their plant they shall be soothed by the colour of the webpage.
 The font is white as this provides contrast to the dark green background and enables the user to easily view the text on the site.
 The pale green used on the form provides contrast to the dark green background and creates emphasis on the form submission button.
 
 ### Typography
+![Mooli](documentation/mooli.png)
 Mooli was used to create the company logo in the size 400 as the elegance and sophistication of the font conveys a sense of refinement and luxury. As well as this the softness of the font provides a feeling of relaxation to the user.
+
+![Raleway](documentation/raleway.png)
 The main webpage font is Raleway as this is easy to read and for the user to follow along with the text. The font size for each section remained the same at 30 as this provides the user with consistency throughout the webpage.
 
 ## Wireframes
