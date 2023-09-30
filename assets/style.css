@@ -3,7 +3,7 @@
 
 
 
-/* Asterisk wildcard selector to override default styles added by the browser */
+/* overides browser defult styles*/
 * {
     padding: 0;
     margin: 0;
@@ -37,7 +37,7 @@ h1 {
 h2,
 h3 {
     font-family: 'Raleway Dots', sans-serif;
-    text-align: spacing 2px;
+    text-align: center;
     color: #ffffff;
     text-align: center;
 }
@@ -145,7 +145,7 @@ main {
     font-size: 180%;
     display: flex;
     justify-content: center;
-    align-items: top center;
+    align-items: center;
     margin-top: 100px;
     margin-bottom: 2rem;
     color: #256937;
@@ -157,7 +157,7 @@ main {
     font-size: 160%;
     display: flex;
     justify-content: center;
-    align-items: top center;
+    align-items: center;
     margin-top: 10px;
     margin-bottom: 2rem;
     color: #256937;
