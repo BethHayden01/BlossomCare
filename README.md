@@ -174,9 +174,68 @@ The main webpage font is Raleway as this is easy to read and for the user to fol
 ![Wireframes](documentation/wireframes.pdf)
 The wireframes for my project were generated using Baslsamiq. They all correspond with the webpages I have created, however, the wireframe for the products page is slightly different. This is because once reviewing the layout, I felt page flowed better in a column allowing the user to scroll through products.
 
-Testing
+## Testing
 
 Please see [TESTING.md](TESTING.md) for all files relating to the testing of the final webpage.
+
+## Depolyment 
+
+### Depoloyment to GitHub. 
+This was done early in the webpage development to ensure the webpage presented in line with the preview. The steps of which are listed below:
+- Selected the Settings tab in the GitHub repository. 
+- Selected the Pages tab on the left hand side menu.
+- Chose the Main branch and Root file followed by save.
+- When refreshed, the link to the deployed page was displayed at the top.
+
+The depolyed page can be accessed via this link:
+https://bethhayden01.github.io/BlossomCare/
+
+## Future plans
+Future plans for the development of this webpage include:
+- Generating a error 404 page that corresponds with the theme of the site.
+- Produce more congruent commit messages throughout the project.
+- Create social media pages that can be added to the footer links.
+- Add a lighthouse and WAVE report to the validation.
+
+## Credits
+
+- Inspiration for the Navbar element and dropdown menu came from tutorials provided by The Code Institute.
+- The inspiration for the Products page element came from personal experince viewing many plant care websites. 
+
+### Media
+All the images for the webpage were taken from various Google image searches. The link for each image can be found in the list below:
+### Home page images
+- [Hero](https://wallpaperscraft.com/download/leaves_plant_green_136320/2560x1080)
+- [Customer-Message1](https://www.provenwinners.com/learn/houseplants/ficus)
+- [Customer-Message2](https://www.gardens4you.co.uk/aloe-arborescens-9-cm.html)
+- [Customer-Message3]()
+### Gallery page images
+- [plant1](https://lansonplace.com/5-air-purifying-indoor-plants-that-are-easy-to-keep-alive/)
+- [plant2](https://www.pinterest.co.uk/pin/where-to-buy-plants-online-9-shops-that-deliver-straight-to-your-door--343892121550623150/)
+- [plant3](https://www.beardsanddaisies.co.uk/products/schefflera-on-lava)
+- [plant4](https://grocycle.com/how-to-propagate-plants/)
+- [plant5](https://www.theguardian.com/lifeandstyle/2020/dec/05/pot-luck-five-of-the-best-house-plants-to-give-as-gifts)
+- [plant6](https://www.crocus.co.uk/plants/_/anthurium-pink-champion-antinkeles-pbr/classid.2000032090/)
+- [plant7](https://costafarms.com/blogs/get-growing/easy-to-grow-houseplants-with-colorful-leaves)
+- [plant8](https://thelittlebotanical.com/watermelon-peperomia-care-guide/)
+### Products page images
+- [Products-Hero](https://www.rawpixel.com/image/4063137/illustration-image-background-wallpaper-desktop-wallpapers)
+- [Product1](https://www.ukhouseplants.com/helpful-tips/fertilisers-nutrient-deficiencies)
+- [Product2](https://stock.adobe.com/be_fr/images/top-view-of-female-hands-wiping-dust-from-big-green-leaves-of-plant-unrecognizable-caring-young-woman-cleans-indoor-plants-takes-care-leaf-gardening-housewife-and-housework-chores-concept/523806903)
+- [Product3](https://www.cheerfulbargains.co.uk/products/koo-9993198-arrangement-centerpiece)
+- [Product4](https://stock.adobe.com/au/images/air-humidifier-on-the-table-at-home-water-steam-direction-to-a-houseplant-ficus-lyrata-ultrasonic-technology-comfortable-living-conditions-moisture-increase-in-the-apartment/303684953)
+### Contact page images
+- [Contact-Background](https://www.vecteezy.com/photo/25434115-abstract-dark-green-surface-of-leaves-natural-floral-background-generate-ai)
+### Response page images
+- [Response-Background](https://www.allaboutgardening.com/variegated-houseplants/)
+
+## Acknowledgments
+- [Iuliia-Konovalova](https://github.com/IuliiaKonovalova) was my mentor and a huge supporter of my website. She helped me greatly through the creation of my webpage.
+- [Code-Institute](https://codeinstitute.net/) for it's helpful and clear tutorials, as well as the Slack community members for their insights.
+- [Eddy-Ku](https://github.com/PalliateAi) for his support and insight into CSS code
+
+
+
 
 
 
