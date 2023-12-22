@@ -57,12 +57,12 @@ On tablets:
 -   Once clicked the following dropdown menu is displayed.
 
 
-![Dropdown menu for responsive navbar](documentation/navbar-dropdown.png)
+![Dropdown menu for the responsive navbar](documentation/navbar-dropdown.png)
 
 ## Homepage (link)
 
 The homepage is comprised of:
--	A hero image of houseplants with and about element containing details of the organisation overlaying the image on the bottom right hand side.
+-	A hero image of houseplants with and about elements containing details of the organisation overlaying the image on the bottom right-hand side.
 -	Testimonial stories about the company including an image of their healthy plants.
 -	A footer containing links to the form page and social medias for the organisation.
 
@@ -114,7 +114,7 @@ The page consists of:
 -	A link to the contact page if the user has used these products before and they have not worked for them before.
 -	A footer identical to the footer of the home page and plant type page containing links to the company’s social media sites.
 
-The purpose of this page is to gives the user a clear idea of the different types of plant care products are avalible on the market to aid their plants health. The descriptions of of each product provide the user with a basic idea as to why each product is essential to a plants survivial. 
+The purpose of this page is to gives the user a clear idea of the different types of plant care products are available on the market to aid their plants health. The descriptions of of each product provide the user with a basic idea as to why each product is essential to a plants survivial. 
 
 ## Contact us page
 ![Contact](documentation/contact.png)
@@ -122,24 +122,24 @@ The purpose of this page is to gives the user a clear idea of the different type
 This page is accessible through the fourth link on the nav bar, a button above the footer of the Plant Types page, and a button above the footer of the best product page.
 This form enables the user to select a concern using checkboxes representing the following plant care issues:
 -	My plant is dying.
--	I need advice on plant care product.
+-	I need advice on plant care products.
 -	General plant care queries
 -	Repotting advice.
 The form then has a text area to enter the users’ details including:
 -	Their name
 -	Their email address
--   Their individual plant concern message
+-   Their plant concern message
 -   An upload file button to send an image of their plant if they desire.
-Following the users details the form has a large text area to enable them to enter a description of the issue or further information regarding their query for the company.
-At the bottom of the form there is a choose file button to upload a picture of their plant and submit button which leads the user to a response page.
+Following the user's details the form has a large text area to enable them to enter a description of the issue or further information regarding their query for the company.
+At the bottom of the form, there is a choose file button to upload a picture of their plant and a submit button which leads the user to a response page.
 The page has a static background image mirroring the hero image on the home page.
 The page will be responsive on all device types to enable complete accessibility for users on laptops, tablets, or mobile devices.
 
-The purpose of this page is to enable to user to contact the organisation if the page has not so far helped them with their plant care issue. 
+The purpose of this page is to enable the user to contact the organisation if the page has not so far helped them with their plant care issue. 
 
 ### Response page
 ![Response](documentation/response.png)
-The response page will appear to the user immediately after they have clicked the help me button. This presents the user with a thank you message and a promise to response to their query within 48 hours.
+The response page will appear to the user immediately after they have clicked the help me button. This presents the user with a thank you message and a promise to respond to their query within 48 hours.
 
 The purpose of this page is to give the user visual feedback that their form has been successfully recived by the organisation and give them a time scale as to when they are likely to get a response from the team. 
 
@@ -172,6 +172,7 @@ The main webpage font is Raleway as this is easy to read and for the user to fol
 
 ## Wireframes
 [Wireframes](documentation/wireframes.pdf)
+
 The wireframes for my project were generated using Baslsamiq. They all correspond with the web pages I have created, however, the wireframe for the products page is slightly different. This is because once reviewing the layout, I felt that the page flowed better in a column allowing the user to scroll through products.
 
 ## Testing
