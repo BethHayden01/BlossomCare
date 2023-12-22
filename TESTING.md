@@ -5,17 +5,17 @@
 To ensusre the final webpage worked on all broswers it was tested on multiple browsers including Google Chrome, Mozilla Firefox, and Microsoft Edge. Please see the results below:
 
 ### Google Chrome
-![Chrome-test](documentation/chrome-test.mp4)
+![Chrome-test](documentation/chrome-test-gif.gif)
 
 ### Mozilla Firefox
-![Firefox-test](documentation/firefox-testing.mp4)
+![Firefox-test](documentation/firefox-test.gif)
 
 ### Microsoft Edge
-![Edge-test](documentation/edge-test.mp4)
+![Edge-test](documentation/edge-test.gif)
 
 ## Validator
 
-The final HTML and CSS code was run through the W3C validator and Jigsaw to ensure the code is compliant with current regulations. The pass result of all of these tests can be seen below:
+The final HTML and CSS code was run through the W3C validator and Jigsaw to ensure the code is compliant with current regulations. The pass result of all of these tests can be found through the below links:
 ### Index.html
 [Index-html-validation](documentation/index-validator.png)
 ### Plant-gallery.html

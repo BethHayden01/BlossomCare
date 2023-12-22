@@ -25,8 +25,8 @@ https://bethhayden01.github.io/BlossomCare/
 ### Multiple experience user objectives:
 
 -   As a returning user, I want to be able to contact the organisation easily if I can not solve my plant issues myself.
--   As a returning user, I want to be able to see other user experiences so I can ensure they had similar experiences to mine.
--   As a returning user, I want to be able to view reccomended prodcts so I can ensure I am including them in my plant care.
+-   As a returning user, I want to be able to see other users experiences so I can ensure they had similar experiences to mine.
+-   As a returning user, I want to be able to view recommended products so I can ensure I am including them in my plant care.
 
 ## Features:
 
@@ -34,28 +34,28 @@ https://bethhayden01.github.io/BlossomCare/
 
 ![Navigation Bar](documentation/navbar.png)
 
-The navigation bar of the webpage will be positioned at the top of each page with the company logo on the left hand side. The navigation elements will be evenly spaced along the right hand side of the nav bar and lead to the below pages:
+The navigation bar of the webpage will be positioned at the top of each page with the company logo on the left-hand side. The navigation elements will be evenly spaced along the right-hand side of the nav bar and lead to the below pages:
 
 -	Home – takes you to the main index.html page.
--	Plant Types – takes you to a labelled gallery page with images of different typical houseplant species.
+-	Plant Types – takes you to a gallery page with images of different typical houseplant species.
 -	Best care products – takes you to a page consisting of different plant care products and recommendations/benefits for houseplants.
--	Contact us – takes the user to a contact form page where the user can define a plant issue and contact the company for help with their individual plant issues. The user can attach an image to the webpage to send to the company.
+-	Contact us – takes the user to a contact form page where the user can define a plant issue and contact the company for help with their plant issues. The user can attach an image to the webpage to send to the company.
 
 The navigation links will contain a hover element to allow the user to see a visual representation of the link they are selecting. The navigation bar is also responsive, allowing the user to view the webpage clearly on different devices. The purpose of the navigation links is to provide users with a clear pathway to navigate from each page with ease. 
 On tablets:
 
--	The navbar contain the four links side by side to the right hand side the company logo.
+-	The navbar contains the four links side by side to the right-hand side of the company logo.
 
 
 ### On mobile devices:
 
--	The navbar is compressed and accessible using a horizontal circiles button on the top right-hand side of the webpage as seen below. 
-<img src="assets/assets-readme/navbar-burger.png" alt="dropdown menu button in navbar">
+-	The navbar is compressed and accessible using a horizontal circle button on the top right-hand side of the webpage as seen below. 
 
-![Responsive Navigation Icon](documentation/navbar-burger.png)
+
+![Responsive Navigation Icon](documentation/navbar-dropdown.png)
 
 -   Once clicked the following dropdown menu is displayed.
-<img src="assets/assets-readme/navbar-dropdown.png" alt="dropdown menu in navbar">
+
 
 ![Dropdown menu for responsive navbar](documentation/navbar-dropdown.png)
 
@@ -165,34 +165,34 @@ The pale green used on the form provides contrast to the dark green background a
 
 ### Typography
 ![Mooli](documentation/mooli.png)
-Mooli was used to create the company logo in the size 400 as the elegance and sophistication of the font conveys a sense of refinement and luxury. As well as this the softness of the font provides a feeling of relaxation to the user.
+Mooli was used to create the company logo in the size 400 as the elegance and sophistication of the font convey a sense of refinement and luxury. As well as this the softness of the font provides a feeling of relaxation to the user.
 
 ![Raleway](documentation/raleway.png)
 The main webpage font is Raleway as this is easy to read and for the user to follow along with the text. The font size for each section remained the same at 30 as this provides the user with consistency throughout the webpage.
 
 ## Wireframes
-![Wireframes](documentation/wireframes.pdf)
-The wireframes for my project were generated using Baslsamiq. They all correspond with the webpages I have created, however, the wireframe for the products page is slightly different. This is because once reviewing the layout, I felt page flowed better in a column allowing the user to scroll through products.
+[Wireframes](documentation/wireframes.pdf)
+The wireframes for my project were generated using Baslsamiq. They all correspond with the web pages I have created, however, the wireframe for the products page is slightly different. This is because once reviewing the layout, I felt that the page flowed better in a column allowing the user to scroll through products.
 
 ## Testing
 
 Please see [TESTING.md](TESTING.md) for all files relating to the testing of the final webpage.
 
-## Depolyment 
+## Deployment 
 
-### Depoloyment to GitHub. 
+### Deployment to GitHub. 
 This was done early in the webpage development to ensure the webpage presented in line with the preview. The steps of which are listed below:
 - Selected the Settings tab in the GitHub repository. 
-- Selected the Pages tab on the left hand side menu.
-- Chose the Main branch and Root file followed by save.
+- Selected the Pages tab on the left-hand side menu.
+- Choose the Main branch and Root file followed by save.
 - When refreshed, the link to the deployed page was displayed at the top.
 
-The depolyed page can be accessed via this link:
+The deployed page can be accessed via this link:
 https://bethhayden01.github.io/BlossomCare/
 
 ## Future plans
 Future plans for the development of this webpage include:
-- Generating a error 404 page that corresponds with the theme of the site.
+- Generating an error 404 page that corresponds with the theme of the site.
 - Produce more congruent commit messages throughout the project.
 - Create social media pages that can be added to the footer links.
 - Add a lighthouse and WAVE report to the validation.
@@ -200,7 +200,7 @@ Future plans for the development of this webpage include:
 ## Credits
 
 - Inspiration for the Navbar element and dropdown menu came from tutorials provided by The Code Institute.
-- The inspiration for the Products page element came from personal experince viewing many plant care websites. 
+- The inspiration for the Products page element came from personal viewing many plant care websites. 
 
 ### Media
 All the images for the webpage were taken from various Google image searches. The link for each image can be found in the list below:
