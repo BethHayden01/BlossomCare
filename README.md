@@ -10,7 +10,7 @@ https://bethhayden01.github.io/BlossomCare/
 
 ## User stories:
 ### First experience user objectives:
-
+    
 -	When first accessing the webpage, I need it to be laid out in an accessible manner, one which I can fully understand and navigate unaided.
 -	When first accessing the webpage, I need to be able to view previous user experiences so I can ensure the company is trustworthy
 -   When first accessing the webpage, I need to be able to easily view what the organization is about. 

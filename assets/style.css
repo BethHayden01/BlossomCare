@@ -526,3 +526,25 @@ main {
         border-bottom: 1px solid #ffffff;
     }
 }
+
+@media screen and (max-width: 480px) {
+
+    .image_container {
+        width: fit-content;
+    }
+
+    .plant-image {
+        width: fit-content;
+    }
+
+    .customer-container {
+        width: fit-content;
+    }
+
+    .customer1,
+    .customer2,
+    .customer3 {
+        display: flex;
+        flex-direction: column;
+    }
+}
