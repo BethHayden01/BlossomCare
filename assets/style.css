@@ -110,7 +110,7 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 2px;
 }
 
 /*Hero image*/
@@ -463,8 +463,8 @@ main {
     color: #256937;
 }
 
-/*Mobile devices*/
-@media screen and (min-width:768px) {
+/*Tablet sized device responsive design*/
+@media screen and (min-width: 800px) {
 
     /*Navbar element*/
     nav {
@@ -532,7 +532,8 @@ main {
     }
 }
 
-@media screen and (max-width: 480px) {
+/*Mobile device portrait responsive design element*/
+@media screen and (max-width: 360px) {
 
     .image_container {
         width: fit-content;
@@ -563,7 +564,4 @@ main {
         width: fit-content;
     }
 
-    .product-image img {
-        width: 120%;
-    }
 }
