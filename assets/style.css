@@ -300,7 +300,7 @@ main {
     display: inline-block;
     text-align: center;
     flex-direction: column;
-    justify-content: center !important;
+
 }
 
 .product_main_container {
