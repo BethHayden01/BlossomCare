@@ -356,12 +356,11 @@ main {
 .contact-us-form {
     color: #ffffff;
     background-color: rgba(184, 182, 182, 0.7);
-    display: inline-block;
-    text-align: center;
+    display: block;
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
-    max-width: 60rem;
+    max-width: 40rem;
     margin-top: 5em;
     margin-left: 2em;
     font-family: 'Raleway Dots', sans-serif;
@@ -536,15 +535,17 @@ main {
 @media screen and (max-width: 360px) {
 
     .image_container {
-        width: 50%;
+        width: 80%;
     }
 
     .plant-image {
         width: 50%;
     }
 
+
     .customer-container {
-        width: fit-content;
+        justify-content: center;
+        width: 50%;
     }
 
     .customer1,
