@@ -289,12 +289,11 @@ main {
 .products-about {
     background-color: rgba(184, 182, 182, 0.7);
     font-size: 100%;
-    width: 42%;
+    width: 100%;
     position: absolute;
-    bottom: 90px;
+    bottom: 30px;
     min-height: 200px;
-    padding-top: 25px;
-    padding-left: 10px;
+    padding: 20px 10px;
 }
 
 .product-images {
