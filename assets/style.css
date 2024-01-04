@@ -350,12 +350,15 @@ main {
     padding: 10px 10px 80px 10%;
     flex-grow: 1;
     width: 100%;
+    display: inline-block;
+    align-items: center;
 }
 
 .contact-us-form {
     color: #ffffff;
     background-color: rgba(184, 182, 182, 0.7);
-    display: flex;
+    display: inline-block;
+    text-align: center;
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
@@ -386,8 +389,7 @@ main {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 5px;
-    display: flex;
-    flex-direction: column;
+
 }
 
 .text-input1 {
@@ -411,6 +413,8 @@ main {
     font-size: 100%;
     background-color: rgba(255, 255, 255, 0.7);
     color: #494343;
+    display: inline-block;
+    text-align: center;
 }
 
 .submit-issue {
