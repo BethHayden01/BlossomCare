@@ -174,7 +174,6 @@ main {
 }
 
 .customer-content div {
-    margin: 2rem;
     display: flex;
     flex-direction: column;
     width: 500px;
@@ -531,6 +530,14 @@ main {
     }
 }
 
+@media screen and (max-width: 543px) {
+
+    .plant-image {
+        height: 300px;
+        width: 300px !important;
+    }
+}
+
 /*Mobile device portrait responsive design element*/
 @media screen and (max-width: 360px) {
 
@@ -538,15 +545,11 @@ main {
         width: 80%;
     }
 
-    .plant-image {
-        width: 50%;
-    }
-
-
     .customer-container {
         justify-content: center;
         width: 50%;
     }
+
 
     .customer1,
     .customer2,
@@ -565,4 +568,12 @@ main {
         width: fit-content;
     }
 
+}
+
+@media screen and (max-width: 329px) {
+
+    .plant-image {
+        height: 200px;
+        width: 200px;
+    }
 }
