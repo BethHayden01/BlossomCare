@@ -169,14 +169,15 @@ main {
     width: 100%;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
     margin-top: 8rem;
+    padding: 2em;
 }
 
-.customer-content div {
+.customer-message {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 100%;
     align-items: center;
     font-style: italic;
     font-size: 130%;
@@ -348,9 +349,12 @@ main {
 .contact-us {
     background: url("../assets/images/contactbg.jpg") no-repeat center center/cover;
     background-size: cover;
-    padding: 10px 10px 80px 10%;
+    padding: 2em 0.5em;
     flex-grow: 1;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-us-form {
@@ -362,8 +366,9 @@ main {
     justify-content: center;
     max-width: 40rem;
     margin-top: 5em;
-    margin-left: 2em;
+    width: 90%;
     font-family: 'Raleway Dots', sans-serif;
+    padding: 1em;
 }
 
 .contact-us-form h2 {
@@ -462,6 +467,24 @@ main {
     color: #256937;
 }
 
+.customer1,
+.customer2,
+.customer3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.customer1>div,
+.customer2>div,
+.customer3>div {
+    display: flex;
+    flex-direction: column;
+}
+
 /*Tablet sized device responsive design*/
 @media screen and (min-width: 800px) {
 
@@ -504,19 +527,7 @@ main {
     }
 
     /*Messages Element in index.html*/
-    .customer1,
-    .customer2,
-    .customer3 {
-        display: flex;
-        flex-direction: column;
-    }
 
-    .customer1>div,
-    .customer2>div,
-    .customer3>div {
-        display: flex;
-        flex-direction: column;
-    }
 
     .products-about {
         width: 40%;
@@ -548,15 +559,6 @@ main {
 
     .customer-container {
         justify-content: center;
-        width: 50%;
-    }
-
-
-    .customer1,
-    .customer2,
-    .customer3 {
-        display: flex;
-        flex-direction: column;
     }
 
     .products-about {
