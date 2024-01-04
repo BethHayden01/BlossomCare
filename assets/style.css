@@ -252,7 +252,7 @@ main {
 .gallery {
     display: flex;
     width: 100%;
-    padding: 4em 2em;
+    padding: 1em, 2em;
 }
 
 .grid-container {
