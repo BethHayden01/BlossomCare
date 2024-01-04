@@ -518,6 +518,11 @@ main {
         display: flex;
         flex-direction: column;
     }
+
+    .products-about {
+        width: 40%;
+        left: 20px;
+    }
 }
 
 /*Larger devices*/
@@ -546,5 +551,19 @@ main {
     .customer3 {
         display: flex;
         flex-direction: column;
+    }
+
+    .products-about {
+        height: 50%;
+        width: 80%;
+        left: 20px;
+    }
+
+    .product-images {
+        width: fit-content;
+    }
+
+    .product-image img {
+        width: 120%;
     }
 }
