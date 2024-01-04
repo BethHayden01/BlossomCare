@@ -536,11 +536,11 @@ main {
 @media screen and (max-width: 360px) {
 
     .image_container {
-        width: fit-content;
+        width: 50%;
     }
 
     .plant-image {
-        width: fit-content;
+        width: 50%;
     }
 
     .customer-container {
@@ -555,7 +555,7 @@ main {
     }
 
     .products-about {
-        height: 50%;
+        font-size: 80%;
         width: 80%;
         left: 20px;
     }
