@@ -297,7 +297,8 @@ main {
 }
 
 .product-images {
-    display: flex;
+    display: inline-block;
+    text-align: center;
     flex-direction: column;
     justify-content: center !important;
 }
@@ -350,8 +351,6 @@ main {
     padding: 10px 10px 80px 10%;
     flex-grow: 1;
     width: 100%;
-    display: inline-block;
-    align-items: center;
 }
 
 .contact-us-form {
