@@ -59,7 +59,7 @@ On tablets:
 
 ![Dropdown menu for the responsive navbar](documentation/navbar-dropdown.png)
 
-## Homepage (link)
+## Homepage
 
 The homepage is comprised of:
 -	A hero image of houseplants with and about elements containing details of the organization overlays the image on the bottom right-hand side.
