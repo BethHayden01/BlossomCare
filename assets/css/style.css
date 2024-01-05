@@ -279,7 +279,7 @@ main {
 /*Proucts page syling, 3rd page*/
 
 .products-hero {
-    background: url("../assets/images/productshero1.webp") no-repeat center center/cover;
+    background: url("assets/images/productshero1.webp") no-repeat center center/cover;
     display: flex;
     height: 600px;
     width: 100%;
