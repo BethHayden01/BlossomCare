@@ -222,7 +222,7 @@ All the images for the webpage were taken from various Google image searches. Th
 - [plant7](https://costafarms.com/blogs/get-growing/easy-to-grow-houseplants-with-colorful-leaves)
 - [plant8](https://thelittlebotanical.com/watermelon-peperomia-care-guide/)
 ### Products page images
-- [Products-Hero](https://www.rawpixel.com/image/4063137/illustration-image-background-wallpaper-desktop-wallpapers)
+- [Products-Background-Image](https://www.vecteezy.com/photo/25434115-abstract-dark-green-surface-of-leaves-natural-floral-background-generate-ai)
 - [Product1](https://www.ukhouseplants.com/helpful-tips/fertilisers-nutrient-deficiencies)
 - [Product2](https://stock.adobe.com/be_fr/images/top-view-of-female-hands-wiping-dust-from-big-green-leaves-of-plant-unrecognizable-caring-young-woman-cleans-indoor-plants-takes-care-leaf-gardening-housewife-and-housework-chores-concept/523806903)
 - [Product3](https://www.cheerfulbargains.co.uk/products/koo-9993198-arrangement-centerpiece)
