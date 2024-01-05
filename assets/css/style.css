@@ -117,7 +117,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../assets/images/heroimagebc.jpg") no-repeat center center/cover;
+    background: url("../images/heroimagebc.jpg") no-repeat center center/cover;
     position: relative;
 }
 
@@ -279,7 +279,7 @@ main {
 /*Proucts page syling, 3rd page*/
 
 .products-hero {
-    background: url("assets/images/productshero1.webp") no-repeat center center/cover;
+    background: url("../images/contactbg.jpg") no-repeat center center/cover;
     display: flex;
     height: 600px;
     width: 100%;
@@ -346,7 +346,7 @@ main {
 
 /*Contact Us form styles*/
 .contact-us {
-    background: url("../assets/images/contactbg.jpg") no-repeat center center/cover;
+    background: url("../images/contactbg.jpg") no-repeat center center/cover;
     background-size: cover;
     padding: 2em 0.5em;
     flex-grow: 1;
@@ -431,7 +431,7 @@ main {
 /*Response page styles*/
 
 .response {
-    background: url("../assets/images/responsebg.jpg") no-repeat center center/cover;
+    background: url("../images/responsebg.jpg") no-repeat center center/cover;
     background-size: cover;
     padding: 10px 10px 0 10%;
     flex-grow: 1;
