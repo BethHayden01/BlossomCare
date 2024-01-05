@@ -46,3 +46,13 @@ Each individual element was tested manually to ensure it worked as required.
 
 ### Unsolved Bugs
 - No bugs were left unsolved 
+
+### Mistakes
+- During the production of this webpage there were mistakes made in the GitHub commit messages through the use of past tense and a profound lack of detail in the messages. This was due to a lack of knowledge gained through the CI tutorials. I was unaware of the industry standard of commit message structure, as can be seen in the screenshots below.
+
+![Initial-commit-messages](documentation/initial-commits.png)
+
+
+- After instruction and guidance from my tutor, Iuliia Konovalova, this issue has been rectified, as can be seen in my later commit messgaes below. This new learnt structure shall be carried forward throughout my work as a Software Developer.
+
+![Rectified-commit-messages](documentation/secondary-commits.png)
